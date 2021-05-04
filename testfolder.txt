@@ -1,0 +1,12 @@
+ Volume in drive F has no label.
+ Volume Serial Number is 4C7F-0420
+
+ Directory of F:\Synoriq
+
+05/04/2021  08:07 PM    <DIR>          .
+05/04/2021  08:07 PM    <DIR>          ..
+05/04/2021  08:07 PM               397 testfolder
+05/04/2021  08:07 PM                 0 testfolder.txt
+05/04/2021  06:06 PM            73,410 WorkflowOfGithub.PNG
+               3 File(s)         73,807 bytes
+               2 Dir(s)  493,745,270,784 bytes free
