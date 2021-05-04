@@ -73,7 +73,16 @@ Playlist Link "https://youtube.com/playlist?list=PLhW3qG5bs-L8OlICbNX9u4MZ3rAt5c
     4. Merge => Before merging we need to first checkout master branch and then
                 -- git merge branch_name
                 -- git push -u origin master
-    5. 
+    5. Delete => git branch -d branch_name                           => Local Repository
+                 git push origin --delete branch_name                => Online Repository
+}
+
+* Video 5 * == <Email Notifications> --> Repository > settings > Notifications
+
+* Video 6 * == Git Tags
+  WHY,When =>  Usually done to mark specific points in history of your repository<like release points>
+               Either to create historic restore points
     
-    
-    
+     Commands =>  -- Check out the branch where you want to create tag
+                  -- create tag with some tag name      >> git tag tag_name     ||      >> git tag -a tag_name -m "msg"  
+                  -- Show tags  >> git tag      >> git show tag_name        >> git tag -l "___.*" -> will show all tags with ___ start
