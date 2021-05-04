@@ -1,13 +1,58 @@
-Topics - 1> What is GIT
-         2> What is Github
-         3> Relation
-         4> Basic Workflow
-         
-1> GIT => -- Version Control system
-          -- Free and Open Source
-          -- Collabration
-          -- Track Changes
-Types=>      1. Cetralized VCS      =>  Common Repository and Continuously needed to be online
-             2. Distributed VCS  {Git}       => Has a copy at the local machine on which work is done and then later it is commit -> push to the server repository
+Playlist Link "https://youtube.com/playlist?list=PLhW3qG5bs-L8OlICbNX9u4MZ3rAt5c5GG"
 
-2> Github =>  
+* Video 1* == Introduction
+{
+    Topics - 1> What is GIT
+             2> What is Github
+             3> Relation
+             4> Basic Workflow
+
+    1> GIT => -- Version Control system
+              -- Free and Open Source
+              -- Collabration
+              -- Track Changes
+    Types=>      1. Cetralized VCS      =>  Common Repository and Continuously needed to be online
+                 2. Distributed VCS  {Git}       => Has a copy at the local machine on which work is done and then later it is commit -> push to the server repository
+
+    2> Github => -- Website to upload your repositories online
+                 -- provides backup 
+                 -- provides GUIto repositories
+                 -- makes collabration easier
+
+    3> Git is not related to github.....
+        ||                         \\
+        version control              Website
+        system and can                 < can use github with any VCS>
+        be used
+        <Similarly we can use 
+        git with any online repository 
+        management system>
+
+
+    4> Workflow of git
+        =>  Remote Repo. => {Clone/Pull} -- Local Repo  --  => From local machine we can take or chekout any repository or branch and create a working copy of it
+        =>  We can make any to this working copy and it can be done while we our offline 
+        =>  Once changes are done we can execute add command and it will put these changes in staging area 
+        =>  Until this stage the changes are not committed yet i.e changes not saved to local repository -- For the same we execute commit command
+        =>  Push command will finally apply the changes to the remote repository....
+}
+    
+* Video 2*<skipped ==> installation on mac>
+* Video 3* == installation on windows
+{
+    Topics - 1> Install git on windows
+             2> Adding project to git for tracking
+             3> Git commands
+             4> Pushing poject to remote repository
+
+    1> Installation -> Version details -> if not go to official site for downloading git 
+    2> Tracking project -> add project
+                            |-> open cmd from folder > git init
+    3> Commands => git init - to start tracking
+                   git status - to know the current status of repository [wehther changes made are saved or not ; commit is required or not]
+                   git add  - after making changes in file we first need to add ... and only then we commit
+                   git commit -m "<Message>"
+                   git remote add origin <online repository location>
+                    
+
+
