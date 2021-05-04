@@ -55,7 +55,7 @@ Playlist Link "https://youtube.com/playlist?list=PLhW3qG5bs-L8OlICbNX9u4MZ3rAt5c
                    git add  - after making changes in file we first need to add ... and only then we commit
                    git commit -m "<Message>"
     4> Adding to remote repo=>        git remote add origin <online repository location>
-                                      git push
+                                      git push -u origin <branch name>
 }
 
 * Video 4* == Branching and Merging
@@ -65,3 +65,15 @@ Playlist Link "https://youtube.com/playlist?list=PLhW3qG5bs-L8OlICbNX9u4MZ3rAt5c
                 3. How to checkout branch
                 4. How to merge branch to master
                 5. How to delete branch (local and remote)
+                
+    1. 
+    2. Create Branch => git branch branch_name
+    3. Checkout =>  git checkout branch_name
+                    To have changes in github we will push it >> git push -u origin branch_name
+    4. Merge => Before merging we need to first checkout master branch and then
+                -- git merge branch_name
+                -- git push -u origin master
+    5. 
+    
+    
+    
