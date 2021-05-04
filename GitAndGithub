@@ -1,0 +1,13 @@
+Topics - 1> What is GIT
+         2> What is Github
+         3> Relation
+         4> Basic Workflow
+         
+1> GIT => -- Version Control system
+          -- Free and Open Source
+          -- Collabration
+          -- Track Changes
+Types=>      1. Cetralized VCS      =>  Common Repository and Continuously needed to be online
+             2. Distributed VCS  {Git}       => Has a copy at the local machine on which work is done and then later it is commit -> push to the server repository
+
+2> Github =>  
