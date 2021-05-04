@@ -48,7 +48,9 @@ Playlist Link "https://youtube.com/playlist?list=PLhW3qG5bs-L8OlICbNX9u4MZ3rAt5c
     1> Installation -> Version details -> if not go to official site for downloading git 
     2> Tracking project -> add project
                             |-> open cmd from folder > git init
-    3> Commands => git init - to start tracking
+    3> Commands => git config -- global user.email "github email id"
+                   git config -- global user.name "user name"
+                   git init - to start tracking
                    git status - to know the current status of repository [wehther changes made are saved or not ; commit is required or not]
                    git add  - after making changes in file we first need to add ... and only then we commit
                    git commit -m "<Message>"
