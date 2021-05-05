@@ -75,3 +75,27 @@ Video Link:=   https://www.youtube.com/playlist?list=PLhW3qG5bs-L8YSnCiyQ-jD8XfH
 
       After making changes to the fork project you can merge the changes to the original project using Merge Request
 }
+
+*Video 4* == SSH key
+{
+        Topics:- 
+        1> What is SSH Key
+        2> How to setup SSH key in GitLab
+        
+        1> SSH - Secured Shell
+            -- Used for authentication
+            -- By setting ssh key you can connect to Gitlab server without 
+                using username and password each time
+            
+            Step 1 : Use putty or git bash
+                    >> ssh-keygen
+            Step 2 : Login to GitLab
+                    >>> Go to account > Settings > SSH keys
+            Step 3 : Copy contents of id_rsa.pub and Add key
+            
+            Step 4 : Verify SSH key is added
+                
+}
+
+*Video 5* == 
+
