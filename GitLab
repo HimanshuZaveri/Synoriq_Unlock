@@ -130,5 +130,39 @@ Video Link:=   https://www.youtube.com/playlist?list=PLhW3qG5bs-L8YSnCiyQ-jD8XfH
             Step 4: Check runner is started in the project
 }
 
-*Video 7* == 
+*Video 7* == GitLab CI/CD
+{
+        Topics:-
+            1> What is GitLab CI/CD
+            2> Create .gitlab-ci.yml
+            3> Run CI/CD pipeline
+            
+        GitLab CI is an open source CI service included with GitLab; Since ver 8.0
+        GitLab CI is an open source Continuous Integration service included with GitLab
+        Only project maintainers & Admin can access the Settings
+
+        Step 1: Add .gitlab-ci.yml in the root folder of your project/repo
+
+        - GitLab CI/CD pipeline are configured using YAML file called .gitlab-ci.yml in each project
+        - .gitlab-ci.yml file defines the structure and order of the pipeline & determines
+        - 
+        Mac - textEdit, textWrangler
+        Windows - Notepad, notepad++
+
+        demo_job_1:
+             tags:
+               - ci
+             script:
+               - echo Hello World
+        http://www.yamllint.com/​
+
+        Step 2: Commit and push file to gitlab repo
+
+        Step 3: Create GitLab runner for the project
+        Video - https://www.youtube.com/watch?v=R8rru...​
+
+        Step 4: Start the runner
+
+        Step 5: Make any change in the project  ＞ commit ＞ push
+}
 
