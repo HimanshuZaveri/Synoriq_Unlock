@@ -97,5 +97,38 @@ Video Link:=   https://www.youtube.com/playlist?list=PLhW3qG5bs-L8YSnCiyQ-jD8XfH
                 
 }
 
-*Video 5* == 
+*Video 5* == Gitlab Runner (Mac OS) <Skipped>
+
+*Video 6* == Gitlab Runner (WINDOWS)
+{
+        Topics:- 
+            1> GitLab Runner Introduction
+            2> Installation
+            3> Register
+            4> Kick off!  > Starting with Gitlab runner
+            
+       1> GlR is a program or project or utility used in GitLab CI
+            -- Open source (Continuous Integration Service) included with GitLab
+            -- Used to run jobs and send results back to GitLab
+            
+       2> Installation:- 
+            Step 1: Install GitLab Runner
+               https://docs.gitlab.com/runner/​
+               https://docs.gitlab.com/runner/install/index.html
+
+                >>> gitlab-runner.exe install
+                >>> gitlab-runner --version
+
+       3>   Step 2: Register GitLab Runner
+              (process to bind runner with gitlab instance)
+            https://docs.gitlab.com/runner/register/index.html
+            gitlab-runner.exe register
+
+       4>   Step 3: Start GitLab Runner
+            gitlab-runner.exe start
+
+            Step 4: Check runner is started in the project
+}
+
+*Video 7* == 
 
