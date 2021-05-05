@@ -1,0 +1,77 @@
+Video Link:=   https://www.youtube.com/playlist?list=PLhW3qG5bs-L8YSnCiyQ-jD8XfHC2W1NL_
+
+*Video 1* == Introduction to Gitlab
+{
+    Topics:- 1> What is GitLab
+             2> Create an account on GitLab
+             3> Create a new project on GitLab
+
+  1>  Git - version control system ;to locally track changes in your project/folder and push & pull changes from remote repositories like GitHub, BitBucket, GitLab
+
+  >> GitLab, GitHub, BitBucket
+      Services that allow to host your project on a remote repo & have additional features to help in SDLC and CI, CD
+        e.g
+        Managing
+        Sharing
+        Wiki
+        Bug tracking
+        CI & CD
+        
+   2,3>   Step 1: Goto GitLab.com and create an account
+          Step 2: Sign in to GitLab
+          Step 3: Create a new project on GitLab
+}
+
+*Video 2* == Git Commands
+{
+    Topics:-
+      1> Download and install Git
+      2> Add a project/folder to git
+      3> Commit and Push project to GitLab
+
+        Step 1: Download git from https://git-scm.com/​ and install git 
+
+        Step 2: Check git is installed on your system
+           git --version
+
+        Step 3: Run following git commands
+           git config --global user.name “xxxx”
+           git config --global user.name
+
+           git config --global user.email “xxxx”
+           git config --global user.email
+
+           git config --global --list
+
+        Step 4: Create a demo project/folder & add to git
+
+        Step 5: Goto cmd OR terminal OR git bash 
+             CD to the location of the folder and run following commands
+           git init
+           git status
+           git add .
+           git commit -m “msg”
+           git push -u “url” master
+
+        Step 6: Check project (files) added on GitLab
+}
+
+*Video 3* == How to fork a project
+{
+      Topics:-
+      1> What is fork
+      2> How to fork a project
+
+      A fork is a copy of a project
+      Forking a pro/repo allows you to make changes without affecting the original project
+
+      Step 1: Login to GitLab and goto your project
+
+      Step 2: Click on Fork button
+
+      If you get a message
+      No available namespaces to fork the project. 
+          >>> Create new group and then try again
+
+      After making changes to the fork project you can merge the changes to the original project using Merge Request
+}
