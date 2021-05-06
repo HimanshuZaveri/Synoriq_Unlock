@@ -36,3 +36,43 @@ https://www.youtube.com/watch?v=N1KNw1tr47k&list=PLMJfvBwcOl66_1UJV8ywUoL7mZFPIM
        -> create new brach on github >> now fetch from the repository at local disk [right click-> TortoiseGit -> fetch] >> This will add the branch to the local repo also
        -> you can switch between branches by checkout option...
 }
+
+*Video 6* == Fast Forward Merge and 3-Way Merge
+{
+       >> Fast Forward Merge -> This merge happens when a branch is made out of the master and after that no change takes place in master branch. 
+                             -> Although we had changes in the branch formed above.
+                             -> Now when we will Merge the branches the merge will be fast forward and no explicit commit takes place.
+       >> 3-Way Merge -> This merge occurs when the thier have been some changes or commits in both the branches after the branch formation;
+                      -> The merge then taken place is known as 3-Way Merge.
+}
+
+*Video 7* == Create, Switch and Delete Branch using TorGit
+{
+      >> Creating and deleting using TortoiseGit; and switching among the branches.
+}
+
+*Video 8* == Stashing
+{
+      >> Helps while we need to switch branches before commiting and restricting undo of the important changes...
+}
+
+*Video 9* == Undoing local changes using tortoiseGit revert option
+{     >> The tortoise git revert is === >> git checkout -- <path-to-file>}
+
+*Video 10* == Undoing local changes using tortoiseGit <<reset>> option
+{     >> git reset --hard
+      >>> Resets the tracked file to the commited state <is done through log>
+}
+
+*Video 11* ==  git clean using tortoiseGit
+{
+      >> git reset hard + git clean command to remove files
+}
+
+*Video 12* == git revert using tortoise git
+{
+      >> It does not hampers the previous commits instead adds one more commit to the log,
+            of previous commit.
+}
+
+*Video 13* == 
