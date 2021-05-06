@@ -1,0 +1,38 @@
+https://www.youtube.com/watch?v=N1KNw1tr47k&list=PLMJfvBwcOl66_1UJV8ywUoL7mZFPIMJKx&index=1&t=78s
+
+*Video 1* == Basic Workflow
+{
+      >> Local copy -> add >> Staging -> commit >> Local Repository -> push >> Remote Repo.
+}
+
+*Video 2* == Clone Git Repository
+{
+      >> right click >> git clone >> give the https path
+}
+
+*Video 3* == Git add(staging), commit and push
+{
+      >> Instead of going throuh each step by git cli we can simply use push in tortoisegit
+}
+
+*Video 4* == Git fetch, merge and pull
+{
+      >> Local branch - master on local system
+      >> Remote Tracking Branch - origin/master(on local sys)
+      >> Remote Branch - master (on GitHub or Remote Server)
+     
+ ------------------------------------------------------------------
+      >> Git Fetch -> Updates remote tracking branch
+         Ex: updates(origin/master) from (origin master)
+      >> Git Merge -> Merge remote-tracking branch into local branch
+         Ex: merge(origin/master) into (master)
+        
+      >> Above 2 can be replaced by Git Pull command
+        
+}
+
+*Video 5* == Creating Git Branches
+{
+       -> create new brach on github >> now fetch from the repository at local disk [right click-> TortoiseGit -> fetch] >> This will add the branch to the local repo also
+       -> you can switch between branches by checkout option...
+}
