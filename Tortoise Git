@@ -75,4 +75,38 @@ https://www.youtube.com/watch?v=N1KNw1tr47k&list=PLMJfvBwcOl66_1UJV8ywUoL7mZFPIM
             of previous commit.
 }
 
-*Video 13* == 
+*Video 13* == Create and apply patch
+{
+      >> It is the diff between 2 files.
+      >> used to share changes
+}
+
+*Video 14* == DiffMerge
+{
+
+}
+
+*Video 15* == .gitignore
+{
+      >> To make git ignore the untracked files.
+}
+
+*Video 16* == .gitkeep
+{
+      >> This is used to consider the folders or files that are empty and untracked
+}
+
+*Video 17* == Cherry Pick
+{
+      >> It is used to commit a branch same as that of the commit to other branch.
+}
+
+*Video 18* == remove already tracked file and add it to .gitignore file
+{
+      >> TortoiseGitDelete    - git rm <filename>
+                              - git rm -r <dir>
+      >> TortoiseGitDelete (Keep Local)   - git rm --cached <filename>
+                                          - git rm -r --cached <dir>
+}
+
+
