@@ -109,4 +109,43 @@ https://www.youtube.com/watch?v=N1KNw1tr47k&list=PLMJfvBwcOl66_1UJV8ywUoL7mZFPIM
                                           - git rm -r --cached <dir>
 }
 
+*Video 19* == Create, show and delete git tags using tortoiseGit
+{
+      >>> tags are to label a release or a stable version of the project.
+}
 
+*Video 20* == Rebase
+{
+      >> NOTE:- If feature branch is not yet shared to remote repository,
+                  then only we shoul change the base of feature branch
+                  using git rebase command otherwise, things will get messy when sb
+                  try to pull your changes work back into theirs
+      >> After this if we merge, then it will be fast forward merge.
+}
+
+*Video 21* == Gitflow Workflow
+{
+      >>> Gitflow workflow is the concept of having branches to develop 
+            and collabrate with releaes
+      >>> It can also be implemented using a plugin which will maintain everythng for us
+}
+
+*Video 22* == Clone git repository with ssh using tortoisegit
+{
+      >>> Using PUTTYgen key , generate public and private key 
+      >>> then link it to the github account
+      >>> And proceed with cloning using ssh link
+}
+
+*Video 23* == Undo merge or revert merge commit
+{
+      >>> this will help u to get to the state just before the merge; 
+            and while selecting any parent willl mean that u want to 
+            keep the commits of that parent and want to remove of others
+}
+
+*Video 24* == Modify or Amend Last Commit
+{
+      >>> Message Only - >> git commit --amend -m "updated message"
+      >> File addition ->> git commit --amend --no-edit
+}
