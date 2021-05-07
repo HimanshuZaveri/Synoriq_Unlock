@@ -147,5 +147,7 @@ https://www.youtube.com/watch?v=N1KNw1tr47k&list=PLMJfvBwcOl66_1UJV8ywUoL7mZFPIM
 *Video 24* == Modify or Amend Last Commit
 {
       >>> Message Only - >> git commit --amend -m "updated message"
-      >> File addition ->> git commit --amend --no-edit
+      >> File addition ->> git reset . 
+                        >> git add file.txt
+                        >> git commit --amend --no-edit
 }
