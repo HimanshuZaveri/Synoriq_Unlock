@@ -1,3 +1,5 @@
+https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg
+
 *How the web works*
 
 >> Client -> Browser -> (Website name) -> request -> DNS server
@@ -41,5 +43,52 @@ Website >>> HTML : provides the structure
 *Video 6* == Img and Acnchor tag
 {
     <a href="" target="_blank"></a> -> will open the link in new tab
-    
+    <img src="" alt="">
 }
+
+*Video 7* == Lists and Tables
+{
+        > ul    |   ______  attribute
+        > ol    |                   => type 
+        > li
+        
+        >> Tables :- <thead>
+                     <tbody>
+                     <th> / <td>
+                     <tr>
+}
+
+*Video 8* == Forms and input tags
+{
+    >> <input type="" name="" id="">
+        type: text; number; email; password; submit; date; reset; checkbox; radio
+        name== the value iserted in can be accessed by the name
+        value places a value inside
+        checkbox -> selected
+        
+    >> <label for="car"> </>
+    <select name=val" id=car">
+    <option value=ind> indica </>
+    </>
+}
+
+*Video 9* == Inline and Block elements
+{   >>> some elements occupy the complete line while some just occupy the required region only
+        <p> -> Block element
+        <span> -> Inline element
+}
+
+*Video 10* == Ids and Classes
+{
+    1 id <=> 1 element only
+    multiple classes <==> multiple elements
+}
+
+*Video 11* == Entities
+{
+    >> helps to display the reserved elemnts and those charachters not available on keyboard
+}
+
+*Video 12* == Semantic Tags
+{    >>> These are tags with special functionality }
+    
