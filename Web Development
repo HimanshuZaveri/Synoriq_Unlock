@@ -1,0 +1,45 @@
+*How the web works*
+
+>> Client -> Browser -> (Website name) -> request -> DNS server
+(translates domain name to ip address) -> server(stores or generates website) -> response
+Website >>> HTML : provides the structure
+        >>> CSS : Responsible for styling
+        >>> JS : Adding Logic to wbsite
+        
+-----------------------------------------------------------------------------------------------
+
+*>>> Web Development*
+
+*Video 1* == Introduction and the roles of html,css and js
+
+*Video 2* == Installation of VS code and Live Server
+
+*Video 3* == Basic Structure of Website
+
+*Video 4* == Head Tag
+{
+    >> Meta Tag: Mainly used for SEO
+        > name= "description" content= ""
+        > name= "keywords" content= ""
+        >name = "robots" content= "INDEX, FOLLOW"
+    >> Title Tag: Tiltle of the webpage
+    >> Link Tag: Include css file
+    >> Script Tag: Include external js
+}
+
+*Video 5* == Headings and Paragraphs
+{
+    <h1-6> </h1-6>
+    <p> </p>
+    <strong> </>
+    <em> </>
+    >>> Lorem23 for 23 words
+    <br>
+    <hr>
+}
+
+*Video 6* == Img and Acnchor tag
+{
+    <a href="" target="_blank"></a> -> will open the link in new tab
+    
+}
