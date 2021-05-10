@@ -8,5 +8,16 @@ https://www.youtube.com/watch?v=ua24185-rcw&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPy
 
 *Video 14* == CSS Types
 {
+    >> Inline(Higher in Precedence)
+    >> Internal
+    >> External
+    
+    -> Between Internal and external the one written afterwards overwrites the property written by the previous one.
+    -> To lay the importance to previous one, we write <!important> after that property.
+}
+
+*Video 15* == Selectors in CSS
+{
     
 }
+
