@@ -58,3 +58,14 @@ https://www.youtube.com/watch?v=ua24185-rcw&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPy
                                              -- no-repeat
                         -> background position -- (center, top bottom) (centre, left, right)
 }
+
+*Video 20* == CSS Box Model, Margin and Padding
+{
+    >> Box Model -- Margin
+                 -- Border
+                 -- Padding
+                 -- Box-Sizing
+    >> Margin/Padding - top right bottom left 
+    >> Margin/Padding - top,bottom left,right 
+}
+
