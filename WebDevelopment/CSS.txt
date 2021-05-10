@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=ua24185-rcw&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=18
+
+*Video 13* == Introduction
+{
+    -> Cascading Style sheet
+    -> Helps to style our website and makes it responsive
+}
+
+*Video 14* == CSS Types
+{
+    
+}
