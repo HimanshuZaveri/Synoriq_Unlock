@@ -41,5 +41,20 @@ https://www.youtube.com/watch?v=ua24185-rcw&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPy
 
 *Video 18* == Colors in CSS
 {
+    >> By name
+    >> RGB (0-255, 0-255, 0-255)
+    >> HEX value #09adef
+}
+
+*Video 19* == Borders and Backgrounds
+{
+    >> Border -> border color
+              -> border style
+              -> border width
+    >> Border radius
     
+    >> background image -> background repeat -- repeat-x
+                                             -- repeat-y
+                                             -- no-repeat
+                        -> background position -- (center, top bottom) (centre, left, right)
 }
