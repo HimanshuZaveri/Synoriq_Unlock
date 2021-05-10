@@ -18,6 +18,28 @@ https://www.youtube.com/watch?v=ua24185-rcw&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPy
 
 *Video 15* == Selectors in CSS
 {
+    >> Used to find out the element whose property has to be set.
+    >> Makes easy to target multiple or single element.
     
+    
+    >>> Element selector
+    >>> Id Selector  (#)
+    >>> Class Selector   (.)
+    >>> Grouping Selector
 }
 
+*Video 16* == Chrome Developer Tools
+
+*Video 17* == Fonts in CSS
+{
+    > Web Safe Fonts
+    > Google Fonts
+    
+    >> Font stack -- "font1" , "font2";;; It will give the font style specified first and if that is not present than the next font in the list.
+    >>> Font-Family; Font-Size; Font-Weight; Font-Style.
+}
+
+*Video 18* == Colors in CSS
+{
+    
+}
