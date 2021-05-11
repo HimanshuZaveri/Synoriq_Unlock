@@ -104,3 +104,24 @@ https://www.youtube.com/watch?v=ua24185-rcw&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPy
     >> visibility: hidden; will hide the element but the space occupied will be shown
     >> z-index will only work for positions other than static, it specifies the priority of the overlapping elements
 }
+
+*Video 28* == Flexbox
+{
+    >> Flexbox = Flexible + Box
+    >> Flexbox > main axis; cross axis; flex item; 
+    >> display: flex;  to make container flexbox
+    >> Flex properties for container:-
+        > flex-direction: row(default); column; row-reverse; column-reverse;
+        > flex-wrap: wrap; wrap-reverse;
+        > flex-flow: <flex direction> || <flex-wrap>
+        > justify-content: space-between; center; space-around;space-evenly; <works in horizontal direction>
+        > align-items: center; flex-end; flex-start; stretch; <Works in vertical direction>
+        
+    >> Flex Properties for flex item:-
+        > order = 2; higher the order later the content shows up
+        > flex-grow: When the screen grows this item will grow
+        > flex-shrink: oppo of flex-grow
+        > flex-basis: when flex-basis is set to row: it will control width;
+            when flex direction is set to column it will control height;
+        > flex: <grow> <shrink> <basis>
+}
