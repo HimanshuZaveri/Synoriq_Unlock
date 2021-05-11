@@ -149,8 +149,28 @@ https://www.youtube.com/watch?v=ua24185-rcw&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPy
     >> it injects the css code when the condition is matched
 }
 
+*Video 31* == Advanced CSS selectors
+{
+    >> div p {} -> if p is contained inside div then the property will be applied 
+    >> div > p {} -> if p is directly the child of div then property will be applied
+    >> div + p {} -> if p is right after div then this css will be applied.
+}
 
+*Video 32* == Attributes and n th child pseudo selectors
+{
+    >> input[type='email'] { }
+    >> li: nth-child(3 / 2n+0 / 3n+3 / odd / even) {  }
+}
 
+*Video 33* == Before and After Pseudo Selectors [Watch again]
+{
+    >> element :: after|before  {  }
+    >> adds the properties after or before the element respectively
+}
 
-
-
+*Video 34* == Box Shadow and text shadow
+{
+    >> box-shadow: offset-x offset-y blur-radius spread-radius color;
+    >> box-shadow: 4px 3px red, 5px 6px green;
+    >> text-shadow:  offset-x offset-y blur-radius spread-radius color;
+}
