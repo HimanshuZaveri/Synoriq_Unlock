@@ -69,3 +69,38 @@ https://www.youtube.com/watch?v=ua24185-rcw&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPy
     >> Margin/Padding - top,bottom left,right 
 }
 
+*Video 21* == Float and CLear
+{
+    >> Float helps in positioning our content
+    >> Parameter passed with clear will not overlay at our element
+}
+
+*Video 22* == Styling Links and buttons
+{
+    >> We can style links and buttons; for hover active visited.
+}
+
+*Video 23* == Navigation Menu
+
+*Video 24* == CSS Display Property
+{
+    >> Inline
+    >> Block
+    >> inline-block
+}
+
+*Video 25* == CSS Positions
+{
+    >> static(default)
+    >> absolute -- with respect to parent (top, left)
+    >> fixed -- it remains fixed to its original position
+    >> sticky -- when scrolled up the element sticks to the top
+    >> relative -- with respect to its normal position (top, left)
+}
+
+*Video 27* == Visibility and Z-index
+{
+    >> display: none; will hide the element and the space
+    >> visibility: hidden; will hide the element but the space occupied will be shown
+    >> z-index will only work for positions other than static, it specifies the priority of the overlapping elements
+}
