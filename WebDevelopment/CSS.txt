@@ -174,3 +174,58 @@ https://www.youtube.com/watch?v=ua24185-rcw&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPy
     >> box-shadow: 4px 3px red, 5px 6px green;
     >> text-shadow:  offset-x offset-y blur-radius spread-radius color;
 }
+
+*Video 35* == Variables and Custom Properties
+{
+    >> Variables :- --var-name: ;  Usage-> var(--var-name);
+    |-> Above variable has local scope
+    >> -> :root{
+                --var-name: ;  Usage-> var(--var-name);
+            }
+}
+
+*Video 36* == Creating Animations and Keyframes
+{
+    >>> Animation : properties
+        >> animation-name: ;
+        >> animation-duration: ;
+        >> animation-count: ;
+        >> animatio-fill-mode: > alternate - to end back where it started
+                               > forwards - It remains the same
+        >> animationidirections
+        >> animation-timing-function
+        >> animation delay
+        
+        >> @keyframes animation_name{
+            from {}
+            to {}
+        }
+        
+        >> @keyframes animation_name{
+            0% {}
+            25% {}
+            75% {}
+            100% {}
+            
+        >> animation: name time function delay count fill-mode;
+}
+
+*Video 37* == Creating Transitions
+{
+    >> tranition-property: backgroud-color; <all>
+    >> tranition-duration: 1s;
+    >> tranition-timing-function: ease-in;
+    >> tranition-delay: 2s;
+    >> tranition : property duration function delay;
+}
+
+*Video 38* == Transform in CSS
+{
+    >> rotate(30deg)
+    >> skew(30deg)
+    >> scale(2)
+    >> translateX(100px)
+    >> translateY(100px)
+    >> translate(x, y)
+}
+
