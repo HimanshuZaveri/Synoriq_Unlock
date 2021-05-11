@@ -125,3 +125,32 @@ https://www.youtube.com/watch?v=ua24185-rcw&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPy
             when flex direction is set to column it will control height;
         > flex: <grow> <shrink> <basis>
 }
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+*Video 29* == Responsive Design and Font Units
+{
+    >>> Ways to achieve Responsive Design
+        >> Viewport
+        >> max-width/max-height
+        >> CSS Media Queries
+        >> rem/vh/vw units over pixels 
+        
+    >>> Size Units:- em - sets the size specified no. of times of that of parent
+                     rem - sets the size specified no. of times of that of root(specified with html selector)
+                     vh - viewport height
+                     vw - viewport width <can also be implemented using %>
+}
+
+*Video 30* == Media Queries
+{
+    @media (max-width/min-width) => similar to if condition
+    >> @media only screen and (min width: 300px) and (max width: 500px){
+        .class/#id {  } }
+    >> it injects the css code when the condition is matched
+}
+
+
+
+
+
+
