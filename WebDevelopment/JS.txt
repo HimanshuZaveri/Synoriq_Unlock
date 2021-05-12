@@ -4,5 +4,50 @@ https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
 
 *Video 3* == Javascript Engines
 {
-	
+	>> V8
+	>> Spider Monkey
+	>> Deno
+	>> Node Js
 }
+
+*Video 4* == Java ES versions
+
+*Video 5* == Variable and Datatypes
+{
+	Variables >> var 
+		  >> let
+		  >> const
+	Datatypes >> string
+		  >> number
+		  >> boolean
+		  >>undefined
+}
+
+*Video 6* == User Signup
+{
+	>> const can't be reassigned
+	>> console.log("Name : " + name) 
+	>> console.log("Email : " , email)
+	>> console.log(`
+	Name : ${name}
+	Email : ${email}
+	`)
+}
+
+*Video 7* == Operators in JS
+{
+	> console.log(Math.round(ans))
+}
+
+*Video 8* == Types and operator precedence
+
+*Video 9* == Conditionals in JS
+
+*Video 10* == Logical Condition in JS
+
+*Video 11* == Ternary operator
+{
+	condition ? <if true this statement> : <if false>;
+}
+
+*Video 12* == 
