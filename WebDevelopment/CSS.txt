@@ -229,3 +229,52 @@ https://www.youtube.com/watch?v=ua24185-rcw&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPy
     >> translate(x, y)
 }
 
+*Video 40* == Itroduction and creating a basic grid
+{
+    >> display: grid;  Used for 2-D layout designing of webpage
+    >> Grid-template-columns : -px -px -px; (px/auto)
+    >> gtc-> : repeat(10,auto)
+    >> grid-gap: ;
+}
+
+*Video 41* == Creating Rows and gaps in Grid
+{
+    >> grid-template-rows:1fr 1 fr 4 fr;
+    >> grid-auto-rows: 2fr;
+}
+
+*Video 42* == Multiple Rows and Columns in Grid
+{
+    >> .box:first-child {
+    >> grid-column-start: 1;
+    >> grid-column-end: 3;      [1 and 2 cell column will merge]
+    >> grid-row-start: 1;
+    >> grid-column-end: 3;      [1 and 2 cell row will merge]
+    
+    >> grid-column : 1 / span 3;
+    >> grid-row: 1 / span 3;
+    
+}
+
+*Video 43* == Autofit and Minmax
+{
+    >> grid-template-column: repeat(auto-fit, minmax(400px , 1fr))
+}
+
+*Video 44* == Layouts using grid template area
+{
+    >> grid-template-areas:   
+            'navbar navbar navbar navbar'
+            'section section section  aside';
+            >>> The above will alocate the elements respective area on viewport
+            >>> The number of columns should be same.
+    >> #navbar{
+        grid-area: navbar;}
+    >> #section{
+        grid-area: section;}
+    >> #navbar{
+        grid-area: aside;}
+}
+
+*Video 45* == Media queries with css grid
+{ }
