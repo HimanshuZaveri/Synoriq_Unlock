@@ -176,3 +176,58 @@ https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
 	
 }
 
+*Video 24* == Objects in JS
+{
+	>> var name = { firstname: "asdf", 
+	last: "asdfsd", role: "sdf"}
+	>> console.log(name.firstname)
+	>> console.log(name["role"])
+}
+
+*Video 25* == Methods and objects
+{
+	>> var user = {
+	firstName : "aslfk",
+	courseList: [],
+	buyCourse: function(courseName){
+	this.courseList.push(courseName);}
+	};
+}
+
+*Video 26* == For Loop Basics
+{
+	>> for(let i=0; i<10 ; i++){}
+}
+
+*Video 27* == While and do While
+{
+	let i =0;
+	while (i < states.length){
+	--------------
+	}
+	
+	>> do{
+		console.log(i);
+		i++;
+	  }  while(i<20);
+}
+
+*Video 28* == Above tutorial uploaded twice
+
+*Video 29* == For each loop in JS
+{
+	>> For Each loop
+		arr.forEach((s) => (console.log(s)));
+}
+
+*Video 30* == For-of and For-in Loop
+{
+	>> const names = ["","",""]
+	>> For-of -- For arrays
+		> for(const n of names){
+		  console.log(n); }
+	>> const symbols ={yt: "" , ig : ""}
+	>> For-in -- for objects
+		> for(const n in symbols){
+		console.log(symbols[n])}
+}
