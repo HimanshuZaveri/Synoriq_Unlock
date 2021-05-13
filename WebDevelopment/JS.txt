@@ -50,4 +50,90 @@ https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
 	condition ? <if true this statement> : <if false>;
 }
 
-*Video 12* == 
+*Video 12* == Switch Case Statement
+{
+	switch(key) {case value:
+			statement;
+			break;
+		     default:
+		     break;}
+}
+*Video 13* == Coercion and falsy values
+{
+	Falsy Values >> Undefined
+		     >> null
+		     >> 0
+		     >> ''
+		     >> NaN (Not a Number)
+	     >> null is an assigned value. It means nothing. undefined means a variable has been declared but not defined yet. null is an object
+	Coercion:  Coercion refers to the process of automatic or implicit conversion of values from one data type to another.
+	>> in JS == just checks for the value like (2=="2") is true
+	 >> for strict checking we use (===)
+}
+
+*Video 14* == Basics of Functions
+{
+	function fun_name(name) {
+	   console.log("Hello there, himanshu");
+	   console.log(`Hello there, ${name}`);
+		}
+	fun_name(); -> This is calling the function
+	fun_name; -> This is used when referencing a function.
+}
+
+*Video 15* == Functions in variable
+{
+	 >> var fun_name = function(){}
+	 >> var fun_name = () => {}
+	 
+	 >> They ae called similarly as traditional functions. 
+}
+
+*Video 16* == Understand the context in javascript
+{
+	>> Global context differs in node and that of browser
+	>> name === window.name --> Window undefined in node but still defined by the different name
+	
+	>> Js once executes whole code, the function is registered and put into the global context; Hence even when a function is called first and declared afterwards does not produce error....
+}
+
+*Video 17* == Code hoisting in JS
+{
+	>> Global Context - collecting information about everything.
+	>> Execution Context - In majority of cases window object is available, which is destroyed with the browser.
+	>> Execution Context > Variable Object
+			     > Scope Chain
+			     > this
+	> Function declarations are scanned and made available
+	> Variable declarations are scanned and made undefined
+	
+	i.e if we try to access a var before it is assigned a value, it will show undefined as the js knows it is present in global context but just happens to not know the value
+}
+
+*Video 18* == Scope Chaining
+{
+	>> the very inner local scope can ask for its above and global ones,
+	>> but the upper layers or larger scope cant ask to the smaller ones.
+}
+
+*Video 19* == Intro to THIS
+{
+	>> this keyword gives access to global context.......
+	> in node it is empty object
+	> while in browser it is window
+}
+
+*Video 20* == Introduction to Array
+{
+	>> var countries =["India","USA"]
+	>> var states = new Array("","","")
+	>> delete from end; arr.pop()
+	>> delete from front; 
+		> arr.unshift("saf");
+		> arr.shift();
+	>> .indexOf()
+	>> length
+	>> Array.from("") >> similar to split
+}
+
+
