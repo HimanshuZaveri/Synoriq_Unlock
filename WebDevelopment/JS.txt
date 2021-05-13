@@ -136,4 +136,43 @@ https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
 	>> Array.from("") >> similar to split
 }
 
+*Video 21* == Callback and Arrow Function
+{
+	Arrow function >> var fun = () => {};
+	Callback function >> a callback is a function passed into another function as an argument to be executed later
+	
+	>> var isEven = (a) => {return a%2===0}
+	>> [2,4,6,7].every(isEven);
+	
+	>> [2,4,6,7].every((e) => {return e%2===0});
+	
+	>> [2,4,6,7].every((e) => (e%2===0));
+}
+
+*Video 22* == Fill and Filter in Array
+{
+	Fill :-
+	>> var testArr = [2,3,45,6,43,23]
+	>> console.log(testArr.fill("h", 2, 5))
+	>> [2,3,'h','h','h',23]
+	
+	Filter :-
+	>> const num = [1,2,3,4,5,6,7,7,8,9]
+	>> const result = num.filter((num) => num!=7)
+	>> result -> [1,2,3,4,5,6,8,9]
+}
+
+*Video 23* == Slice and Splice
+{
+	slice -> it removes the elements within the range of the 2 parameters, while incase of single parameter, it slices off the array before that parameter
+	>> var num = [1,2,3,4,5,6,7,7,8,9]
+	>> num.slice(1,3) -> [1,4,5,6,7,7,8,9]
+	>> num.slice(3) -> [4,5,6,7,7,8,9]
+	
+	splice-> starts replacing the elements from the index at first parameter , and goes upto the second para no. of times, and are replaced by the rest of the parametes
+	>> var num = [1,2,3,4,5,6,7,7,8,9]
+	>> num.splice(1, 3, 0)
+	>> console.log(num) -> [1, 0, 5,6,7,7,8,9]
+	
+}
 
