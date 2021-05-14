@@ -231,3 +231,90 @@ https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
 		> for(const n in symbols){
 		console.log(symbols[n])}
 }
+
+*Video 31* == THIS Keyword
+{
+	>> For all regular function calls, this points to window object.
+}
+
+*Video 32* == DOM 
+{
+	>> (Document Object Model)
+	>> Helps in tracking the elements
+}
+
+*Video 33* == Repeated
+
+*Video 34* == How to grab web elements in JS
+{
+	>> getElementsByTagName()
+	>> getElementsByClassName()
+}
+
+*Video 35* == Counter project in JS
+{	>> 
+	>> setTimeout(function, milliseconds)
+	>> setTimeout((coun)=> (
+	counter.innerText=count;
+	count++;) ,10);
+	
+	>> setInterval(function, milliseconds)
+}
+
+*Video 36* == Get Computed properties
+{
+	Ex >> const pink = document.querySelector(".classname/#idname");
+	
+	>> const getBGCol = (selectedElement) => {
+	return window.getComputedStyle(selectedElement).backgroundColor }
+}
+
+*Video 37* == Event Listner in JS
+{
+	>> element.addEventListner("EVENT(MOUSEENTER, CLICK,ETC)",
+	() => { variable.style.background=color
+	})
+}
+
+*Video 38* == New Keyword in JS
+{
+	>> resposible for invoking the constructor and creating a unique instance every single time
+}
+
+*Video 39* == Proto in JS
+{
+	var User = function(){}
+	
+	>> User.prototype.getFirstname = function() {
+	console.log(`Your firstname is : ${this.firstname}`)
+	};
+	
+	>> this prototype will inject hte function in to the object without even touching it.
+}
+
+*Video 40* == Repeated
+
+*Video 41* == Better Code with object chain in JS
+
+*Video 42* == Objects from MDN docs
+
+*Video 43* == Self Executing Anonymous Function
+{
+	(function() {})();
+}
+
+*Video 44* == Lexical Scoping in JS
+
+*Video 45* == Closure in JS
+{
+	>> fun(x) {
+	fun1(y) {
+		return x + y
+	   }
+	return fun1; 
+	 }
+	>> var a = fun(x);
+	>> console.log(a(y));
+	
+	>> console.log(fun(x)(y));
+}
