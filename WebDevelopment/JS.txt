@@ -316,5 +316,28 @@ https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
 	>> var a = fun(x);
 	>> console.log(a(y));
 	
-	>> console.log(fun(x)(y));
+	>> console.log(fun(x)(y)); 		// Curring
 }
+
+*Video 46* == Borrow a metho using Bind
+{
+	var hitesh = {
+	fname:"asd".
+	lname:"ad",
+	getinfo: function(){
+	console.log(` 
+	first name is ${this.fname}
+	last name is ${this.lname}
+	`);},
+	}
+	
+	var sam = {
+	fname: "sam",
+	lname: "asd",
+	}
+	
+	>> hitesh.getinfo.bind(sam)(); 		|| 	var obj = hitesh.getinfo.bind(sam);  >> obj();		// bind
+	>> hitech.getinfo.call(sam);										// call
+}
+
+*Video 47* == 
