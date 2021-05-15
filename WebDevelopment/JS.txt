@@ -340,4 +340,6 @@ https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
 	>> hitech.getinfo.call(sam);										// call
 }
 
-*Video 47* == 
+*Video 47* == Get to know elements in Javascript
+
+*Video 48* == 
