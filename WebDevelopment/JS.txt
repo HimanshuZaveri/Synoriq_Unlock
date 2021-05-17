@@ -352,5 +352,89 @@ https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD
 {
 	>> for loop gives key first
 	>> forEach gives us value first         
+}
+
+*Video 52* == Destructure the data in JS
+{
+	>> In case of arrays;
+	> const user = ["name", 21]
+	> const [name , age] = ["name" , 21]  // Destructuring in arrays
+	
+	>> In case of objects destructuring, the names while defining the object and used while destructuring the object should have same parameters name...
+	> const obj={name: "adf" , age : 21,};
+	> const {name,age} = {name: "adf" , age : 21,};
+}
+
+*Video 53* == Spread and REST operators in JS
+{
+	>> when we use ...args while calling function , where the parameters are in array while the required is as an individual, the ... operator works as spread
+	>> Whereas while defining a function when we use ...args <use looping for operation> , then it works as REST operator
+	
+	>> function fun (..args) { }
+	>> If their are first 2 values needed seperately then;
+		> function fun(a, b, ...args) { }
+}
+
+*Video 54* == Classes and Module exports in JS
+{
+	class User{
+		constructor(name,email){
+		this.name=name
+		this.email=email}
+		
+		courseList=[]
+		
+		getInfo(){						// No function keyword required
+		return {name: this.name , email: this.email}}
+	}
+	module.exports = User;
+	
+	>> 2 ways of import > import User from "./filename"
+			    > const User = require("./filename")
+    	>>
+}
+
+*Video 55* == Private props getters and setters
+{
+	>> private properties are declared by starting the variable name by '#'
+	 and we need to use the functions of the class to manipulate or operate on them
+}
+
+*Video 56* == Inheritance in JS
+{
+	class subAdmin extends User{
+		constructor(name,email){
+		super(name, email)
+		}
+	}
+	
+	const tom = new subAdmin ("tom", "tom@jerry.com")
+}
+
+*Video 57* == Event Loop => it executes the rest and does't waits!
+
+*Video 58* == Promise, async and await
+{
+	const dos = () => {
+	return new Promise((resolve , reject) =>{
+	setTimeout(() => {
+	resolve("I am 2");
+	},3000);
+	})};
+	
+	const callMe = async () => {
+	let valTwo = await dos(); 
+	console.log(valTwo);
+	};
 	
 }
+
+*Vidfeo 59* == How to handle API in JS
+{
+	>> fetch()
+	> .then()
+	> .then()
+	> .catch()
+}
+
+*Video 60-62* == GAME
