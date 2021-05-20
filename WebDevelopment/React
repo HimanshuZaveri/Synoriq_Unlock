@@ -1,0 +1,16 @@
+>> Components
+>> states
+        >> conat [prevValue, setValue] = useState(pervValue);
+        >> setValue( newValue );
+        
+        >> If current states depends on the previous state, then we define a function inside
+            the setvalue to update it.
+            
+        >> conat [prevArrayValue, setArrayValue] = useState(pervArrrayValue);
+        >> setArrayValue((addVal) => {
+            return [...prevArrayValue, addVal]
+        });
+        
+        
+>> Key >> Helps react with identifying unique item.
+
