@@ -17,3 +17,16 @@
 >> {filteredExpeses.length === 0 && <p> sdafgaga </p>}
 >>>>>>>>> returns --->>> sdafgaga
 
+--------------------------------------------------------------------------------------------
+
+>>> CSS injection methods dynamically
+
+>> Inline Method::
+          <input style={{
+          borderColor: isValid ? "black" : "red" , 
+          backgroundColor: isValid ? "transparent" : "salmon"}}
+          type="text" onChange={goalInputChangeHandler} />
+          
+>> TRaditional external CSS
+        code injection
+        > <div className={`form-control ${!isValid ? 'invalid' : ""}`}>
