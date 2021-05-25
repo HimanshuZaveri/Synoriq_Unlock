@@ -37,5 +37,12 @@ Link:- https://github.com/academind/react-complete-guide-code/blob/06-styling/co
 
 
 --------------------------------------------------------------------------------------------
-
-
+> To prevent <div> soup--
+        >> Using Wrapper component to fulfill the requirement of the JSX/React
+        >> const Wrapper = props => returm props.children;
+        >> export default Wrapper
+        
+        >> <React.Fragment>   ....   </ React.Fragment>
+        >> <> </>
+        
+        
