@@ -20,7 +20,7 @@
 --------------------------------------------------------------------------------------------
 
 >>> CSS injection methods dynamically
-
+Link:- https://github.com/academind/react-complete-guide-code/blob/06-styling/code/08-finished/src/components/CourseGoals/CourseInput/CourseInput.js
 >> Inline Method::
           <input style={{
           borderColor: isValid ? "black" : "red" , 
