@@ -44,5 +44,11 @@ Link:- https://github.com/academind/react-complete-guide-code/blob/06-styling/co
         
         >> <React.Fragment>   ....   </ React.Fragment>
         >> <> </>
+        >> if -> import React, {Fragment} from 'react';
+                Then can also use  <Fragment>  </Fragment>
+                
+                
+
+> Portals
         
         
