@@ -15,7 +15,7 @@
 >> Key >> Helps react with identifying unique item.
 
 >> {filteredExpeses.length === 0 && <p> sdafgaga </p>}
->>>>>>>>> returns --->>> sdafgaga
+>>>>>>>>> returns --->>> sdafgaga               >> i.e. 2nd condition result
 
 --------------------------------------------------------------------------------------------
 
@@ -30,3 +30,7 @@
 >> TRaditional external CSS
         code injection
         > <div className={`form-control ${!isValid ? 'invalid' : ""}`}>
+
+>> Styled Component -- 
+
+>> CSS Modules
