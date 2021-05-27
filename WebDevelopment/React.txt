@@ -49,6 +49,23 @@ Link:- https://github.com/academind/react-complete-guide-code/blob/06-styling/co
                 
                 
 
-> Portals
+> Portals --
+        >> Its useful in DOM manipulation, i.e to decide the rendering of components in the index.html page
         
+> Ref's --
+        >> It can be used for reading variables in the component
+        >> {useRef}
+        
+>>>                        >> Portals <createPortals()> (Lets us able to render the components where we intend to in the index.html)
+                       >> Ref's <useRef> (Helps to read variables' data without using useState)        
+        
+-----------------------------------------------------------------------------------------------------
+
+> Effect -- 
+        >> Evaluate & Render JSX
+        >> Manage State & Props
+        >> Reat to (User) Events & Input
+        >> Re-evaluate Componentupon State & Prop Changes
+        
+        >> useEffect( () => {} , [dependencies])
         
