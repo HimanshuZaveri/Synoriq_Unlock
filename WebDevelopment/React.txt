@@ -69,3 +69,17 @@ Link:- https://github.com/academind/react-complete-guide-code/blob/06-styling/co
         
         >> useEffect( () => {} , [dependencies])
         
+        
+        >> useEffect ( () => {
+                function which is needed to be prevented from side effects / from rendering every time our component is rendered.
+                        const a = setTimeout(()=>{},500)
+                return () => {          // CleanUp Function, runs just before the next instance,  and doesn't runs for the first instance
+                        clearTimeout(a);
+                }        
+        } , [dependencies] );
+        >> Incase of empty dependencies i.e. [] ;   useEffect function only runs for the first time and the return part 
+                                                    i.e. cleanup code runs only when the component is finally deleted.
+                                                                                                        
+-----------------------------------------------------------------------------------------------------
+
+
