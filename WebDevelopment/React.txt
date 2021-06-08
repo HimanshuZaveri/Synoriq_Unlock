@@ -100,7 +100,7 @@ Link:- https://github.com/academind/react-complete-guide-code/blob/06-styling/co
 
 -----------------------------------------------------------------------------------------------------
 
->>HTTP-Request:- 
+>> HTTP-Request:- 
         > fetch();
         > convert to .json if needed
         > pass method POST if want to insert the data
@@ -108,5 +108,5 @@ Link:- https://github.com/academind/react-complete-guide-code/blob/06-styling/co
 
 -----------------------------------------------------------------------------------------------------
 
-
+Difference between the statement executed under the component function and outside the component function
 
