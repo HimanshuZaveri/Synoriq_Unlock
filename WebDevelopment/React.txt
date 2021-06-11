@@ -110,3 +110,25 @@ Link:- https://github.com/academind/react-complete-guide-code/blob/06-styling/co
 
 Difference between the statement executed under the component function and outside the component function
 
+-----------------------------------------------------------------------------------------------------
+
+
+--> REDUX:- 
+        >> State Management for cross-component or app-wide state
+        >> Uses Concept of central data (state) storage
+        >> REDUCER FUNCTION      ---->>>    CENTRAL DATA STORE     ---->>>        COMPONENTS
+                             MUTATION                           SUBSCRIPTION
+        >> Here reducer function is not the one we like useReducer()  but this one
+                is  the general concept where function is meant to reduce the given stream of  
+                inputs to some output
+        
+        >> COMPONENTS  -->>  ACTION  -->>  REDUCER
+                   DISPATCH       FORWARDED TO
+        
+        
+        >> Components dispatch actions which describe what should be done, but don't do it directly
+                then these actions are forwarded to the reducer, the reducer then does what the 
+                action wants. Then thereducer spits out the new state which effectively will 
+                replace the existing state in central data store.
+        
+        >> 
