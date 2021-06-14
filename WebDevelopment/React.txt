@@ -82,6 +82,22 @@ Link:- https://github.com/academind/react-complete-guide-code/blob/06-styling/co
                                                                                                         
 -----------------------------------------------------------------------------------------------------
 
+
+--->>>> Forward Ref: -   To call function in the child from its parent.
+                
+                >>> useImperativeHandle: in the child and give the ref as first parameter and the second parameter
+                        is a function returning the object containing the function or properties to be accessiblr from parent
+                        
+                >> useImperativeHandle( ref , () => {
+                                return{
+                                key1: val1
+                                key2: val2
+                                }
+                                } );
+
+
+-----------------------------------------------------------------------------------------------------
+
 > Reducers and useReducer:- 
         >> const [state, dispatchFn] = useReducer(reducerFn, initialState, initFn);
         
@@ -132,3 +148,4 @@ Difference between the statement executed under the component function and outsi
                 replace the existing state in central data store.
         
         >> 
+ 
