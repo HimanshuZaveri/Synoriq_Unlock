@@ -1,3 +1,5 @@
+How to setup react project to git:- https://github.com/gitname/react-gh-pages
+
 >> Components
 >> states
         >> conat [prevValue, setValue] = useState(pervValue);
