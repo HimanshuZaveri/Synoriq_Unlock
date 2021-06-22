@@ -1,3 +1,21 @@
-Route --> Attribute "path"
+Route --> Attribute "path"	AND 	exact(specified when using switch as it makes sure that only the exact path loads the component)
 	specify path u want in url
 	and then pass the component in the route tags which has to be loaded for the given url
+	
+Link --> Attribute "to"
+	used in place of anchor(<a>) tag;
+	the text specified within these rags will take us to the specified path in the "to" attribute
+	
+NavLink --> Attribute 'activeClassName'	 and   'to'
+	to -> It has similar functionality as that in link 
+	activeClassName -> this attribute makes NavLink different from Link
+	In this we specify css class which will be active on the text in the tags when this link is active
+	
+Switch -->
+	This tag makes sure only one Route or to be specific 
+	only things in one route is active at a time on changing the url
+
+Redirect --> Attribute 'to'
+	to -> same as above
+	As the tag says, it helps to redirect to different (specified in the "to" attribute)
+	url for the execution of this tag
