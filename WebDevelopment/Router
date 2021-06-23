@@ -19,3 +19,11 @@ Redirect --> Attribute 'to'
 	to -> same as above
 	As the tag says, it helps to redirect to different (specified in the "to" attribute)
 	url for the execution of this tag
+	
+Params --> 
+	A type of hook imported from react-router-dom
+	We create its object to access params, 				const params = useParams();
+	and use dot operator to get the info from the url		{params.productId}
+	
+	
+	
