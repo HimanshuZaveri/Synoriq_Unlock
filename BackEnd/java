@@ -7,3 +7,30 @@ Section 1:-
 Abstract methods can only be declared in abstract class;
 	No objects can be made of such classes
 	And such classes can only be implements a
+
+
+>>> COllection works on single entity
+while map works on 2 entities
+
+
+>>>>> Utility Interfaces 
+	=> java.util.Iterator ->	
+		- boolean hasNext()	returns true if more elements are present
+		- E next();	returns Next element in the iteration
+		- void remove();	removes last element
+	=> java.lang.iterable ->
+		-Iterator <T> iterator()
+	=> java.lang.Comparable ->
+		- int compareTo(T o)
+			-- Return -ve if the obj is less than the method argument
+			-- Zero if obj equal to the argument
+			-- -ve if obj > than the method argument
+	=> java.util.Comparator ->
+		- int compare(T 01, T02)
+			-- -ve if FIRST < SECOND
+			-- 0 if equal
+			-- +ve first arg > second
+			
+>>>>>>>>>>>> utility Classes
+	=> java.util.collections
+	=> java.util.Arrays
